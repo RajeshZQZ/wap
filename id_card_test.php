@@ -23,6 +23,8 @@ class IdCrd
 	}
 	}
 
+
+
 	public function id_card($id){
 	//$id_card = $_GET['id_card'];
 	if (empty($id)){
