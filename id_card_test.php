@@ -14,7 +14,7 @@ class IdCrd
 	$i = new IdCrd;
 	$res = $i ->id_card($num);
 	if (empty($res)){
-	//echo "输入值为空，请输入身份证前17位！";
+		//echo "输入值为空，请输入身份证前17位！";
 	$url = "./input.html";
 	header('Location:'.$url);    
 	exit;
