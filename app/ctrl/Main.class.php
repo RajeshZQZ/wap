@@ -7,7 +7,7 @@
 include 'Calculator.class.php';
 class Main{
     public function create_id_card(){
-    $vale = $_POST('id_card');
+    $vale = $_POST['id_card'];
     $calculator = new Calculator();
     $calculator->do_test($vale);
     }
