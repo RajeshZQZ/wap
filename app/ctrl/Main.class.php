@@ -5,12 +5,12 @@
 *Time : 21:53
 */
 include 'Calculator.class.php';
-class main{
+class Main{
     public function create_id_card(){
     $vale = $_POST('id_card');
     $calculator = new Calculator();
     $calculator->do_test($vale);
     }
 }
-$main = new main();
+$main = new Main();
 $main ->create_id_card();
