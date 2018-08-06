@@ -36,32 +36,34 @@ select {
 <body>
 <div>
     <div>
-        <form action="InArr.class.php" method="post">
+        <form action="Main.class.php" method="post">
         <select name="sheng_p">
             <option value="0" name="sheng">省份/直辖市</option>
            <?php $sheng = new InArr();
             $sheng ->get_sheng_arr();
            ?>
         </select>
-        <select>
+        <select name="xian_p">
             <option value="0">市/县</option>
         </select>
-        <select>
+        <select name="zhen_p">
             <option value="0">镇/区</option>
         </select>
         <input type="submit" value="点击">
-        </form>
+       </form>
     </div>
     <div class="code-print">
         <p>【县级市没有区！】</p>
-        <p>省编号：<span >
+        <p>省编号：
                 <?php
-                $sheng ->sheng_arr($v);
+                include_once "Main.class.php";
+                $m = new Main();
+                $m ->test($v);
                 ?>
-            </span></p>
-        <p>市编号：<span ></span></p>
-        <p>区编号：<span ></span></p>
-        <p>最终编号:<span ></span></p>
+          </p>
+        <p>市编号：</p>
+        <p>区编号：</p>
+        <p>最终编号:</p>
     </div>
 </div>
 
