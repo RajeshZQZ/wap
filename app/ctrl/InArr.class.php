@@ -1,7 +1,10 @@
 <?php
+
+
 class InArr{
     function get_sheng_arr (){
         $shen_arr = SHENG_ARR;
+        var_dump($shen_arr);
         foreach ($shen_arr as $vale){
             echo "<option value=\'sheng\'>".$vale.'</option>';
         }
@@ -35,7 +38,7 @@ select {
 <div>
     <div>
         <form action="InArr.class.php" method="post">
-        <select>
+        <select name="sheng_p">
             <option value="0" name="sheng">省份/直辖市</option>
            <?php $sheng = new InArr();
             $sheng ->get_sheng_arr();

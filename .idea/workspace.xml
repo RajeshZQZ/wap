@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/ctrl/InArr.class.php" line="15" />
+    <bookmark url="file://$PROJECT_DIR$/app/ctrl/InArr.class.php" line="18" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10c8081b-4a52-43c4-8f23-6db6f0202484" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ctrl/arr_config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ctrl/InArr.class.php" afterPath="$PROJECT_DIR$/app/ctrl/InArr.class.php" />
     </list>
@@ -32,8 +31,8 @@
       <file leaf-file-name="InArr.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/ctrl/InArr.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+            <state relative-caret-position="437">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -42,8 +41,8 @@
       <file leaf-file-name="arr_config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ctrl/arr_config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="-347">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -329,7 +328,7 @@
       <workItem from="1533468380292" duration="1598000" />
       <workItem from="1533482717349" duration="4174000" />
       <workItem from="1533486912495" duration="4755000" />
-      <workItem from="1533561722703" duration="12702000" />
+      <workItem from="1533561722703" duration="13768000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1533280859193</created>
@@ -478,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533577993627</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="2223213">
+      <created>1533579370361</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1533579370361</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28501000" />
+    <option name="totallyTimeSpent" value="29567000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -566,7 +572,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/ctrl/InArr.class.php</url>
-          <line>45</line>
+          <line>48</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -883,14 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ctrl/arr_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/framework/input.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -899,10 +897,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/ctrl/arr_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/ctrl/InArr.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+        <state relative-caret-position="437">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
           <folding />
         </state>
       </provider>
