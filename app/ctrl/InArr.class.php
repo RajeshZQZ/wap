@@ -4,8 +4,7 @@
 class InArr{
     function get_sheng_arr (){
         $shen_arr = SHENG_ARR;
-        var_dump($shen_arr);
-        foreach ($shen_arr as $vale){
+        foreach ($shen_arr as $key => $vale){
             echo "<option value=\'sheng\'>".$vale.'</option>';
         }
     }
