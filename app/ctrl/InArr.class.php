@@ -1,6 +1,6 @@
 <?php
 
-
+include_once "arr_config.php";
 class InArr{
     function get_sheng_arr (){
         $shen_arr = SHENG_ARR;
@@ -8,9 +8,9 @@ class InArr{
             echo "<option value=\'sheng\'>".$vale.'</option>';
         }
     }
-    function sheng_arr ($valu){
-        $arr_vale = $_REQUEST['sheng'];
-        echo $arr_vale;
+    function sheng_arr ($v){
+        $v = $_REQUEST['sheng_p'];
+        echo $v;
     }
 }
 ?>
@@ -56,7 +56,7 @@ select {
         <p>【县级市没有区！】</p>
         <p>省编号：<span >
                 <?php
-                $sheng ->sheng_arr($vale);
+                $sheng ->sheng_arr($v);
                 ?>
             </span></p>
         <p>市编号：<span ></span></p>
