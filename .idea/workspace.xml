@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10c8081b-4a52-43c4-8f23-6db6f0202484" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ctrl/InArr.class.php" afterPath="$PROJECT_DIR$/app/ctrl/InArr.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ctrl/arr_config.php" afterPath="$PROJECT_DIR$/app/ctrl/arr_config.php" />
     </list>
     <list id="d641c591-8504-4240-ab73-0d130e4b7b2c" name="Rejected commit: Default" comment="for test sheng" />
     <ignored path="wap.iws" />
@@ -28,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="InArr.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InArr.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ctrl/InArr.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            <state relative-caret-position="1288">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arr_config.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="arr_config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/ctrl/arr_config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-347">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="521">
+              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -101,8 +101,8 @@
         <option value="$PROJECT_DIR$/app/ctrl/new_input.html" />
         <option value="$PROJECT_DIR$/app/ctrl/in_arr.php" />
         <option value="$PROJECT_DIR$/app/framework/new_input.html" />
-        <option value="$PROJECT_DIR$/app/ctrl/arr_config.php" />
         <option value="$PROJECT_DIR$/app/ctrl/InArr.class.php" />
+        <option value="$PROJECT_DIR$/app/ctrl/arr_config.php" />
       </list>
     </option>
   </component>
@@ -328,7 +328,7 @@
       <workItem from="1533468380292" duration="1598000" />
       <workItem from="1533482717349" duration="4174000" />
       <workItem from="1533486912495" duration="4755000" />
-      <workItem from="1533561722703" duration="13768000" />
+      <workItem from="1533561722703" duration="13796000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1533280859193</created>
@@ -484,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533579370361</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="2223213">
+      <created>1533580435656</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1533580435656</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29567000" />
+    <option name="totallyTimeSpent" value="29595000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -897,18 +904,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ctrl/arr_config.php">
+    <entry file="file://$PROJECT_DIR$/app/ctrl/InArr.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="1288">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ctrl/InArr.class.php">
+    <entry file="file://$PROJECT_DIR$/app/ctrl/arr_config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        <state relative-caret-position="521">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding />
         </state>
       </provider>
