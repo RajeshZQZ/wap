@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10c8081b-4a52-43c4-8f23-6db6f0202484" name="Default" comment="for test sheng">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ctrl/InArr.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/framework/new_input.html" />
+    <list default="true" id="10c8081b-4a52-43c4-8f23-6db6f0202484" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/framework/input.html" afterPath="$PROJECT_DIR$/app/framework/input.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/framework/test.html" afterPath="$PROJECT_DIR$/app/framework/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ctrl/InArr.class.php" afterPath="$PROJECT_DIR$/app/ctrl/InArr.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/framework/new_input.html" afterPath="$PROJECT_DIR$/app/framework/new_input.html" />
     </list>
     <list id="d641c591-8504-4240-ab73-0d130e4b7b2c" name="Rejected commit: Default" comment="for test sheng" />
     <ignored path="wap.iws" />
@@ -28,33 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ctrl/Main.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calculator.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ctrl/Calculator.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#6#66#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InArr.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/ctrl/InArr.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="336">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -63,8 +39,8 @@
       <file leaf-file-name="new_input.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/framework/new_input.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="0">
+              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -122,6 +98,7 @@
         <option value="$PROJECT_DIR$/app/ctrl/do_test.php" />
         <option value="$PROJECT_DIR$/app/ctrl/new_input.html" />
         <option value="$PROJECT_DIR$/app/ctrl/in_arr.php" />
+        <option value="$PROJECT_DIR$/app/framework/new_input.html" />
         <option value="$PROJECT_DIR$/app/ctrl/InArr.class.php" />
       </list>
     </option>
@@ -348,7 +325,7 @@
       <workItem from="1533468380292" duration="1598000" />
       <workItem from="1533482717349" duration="4174000" />
       <workItem from="1533486912495" duration="4755000" />
-      <workItem from="1533561722703" duration="10069000" />
+      <workItem from="1533561722703" duration="11326000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1533280859193</created>
@@ -483,11 +460,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533491192614</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="for test sheng">
+      <created>1533576741538</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1533576741538</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25868000" />
+    <option name="totallyTimeSpent" value="27125000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -566,7 +550,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="for test sheng" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/ctrl/InArr.class.php</url>
+          <line>45</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -853,14 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ctrl/Main.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ctrl/Calculator.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -868,6 +852,14 @@
           <folding>
             <element signature="e#6#66#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ctrl/Main.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,16 +873,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/framework/new_input.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ctrl/InArr.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="336">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding />
         </state>
       </provider>
