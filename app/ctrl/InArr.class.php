@@ -12,6 +12,17 @@ class InArr{
         $v = $_REQUEST['sheng_p'];
         echo $v;
     }
+
+    function shi_arr ($v){
+        $v = $_REQUEST['sheng_p'];
+        echo $v;
+    }
+
+    function xian_arr ($v){
+        $v = $_REQUEST['sheng_p'];
+        echo $v;
+    }
+
 }
 ?>
 
@@ -55,14 +66,20 @@ select {
     <div class="code-print">
         <p>【县级市没有区！】</p>
         <p>省编号：
-                <?php
-                include_once "Main.class.php";
-                $m = new Main();
-                $m ->test($v);
-                ?>
-          </p>
-        <p>市编号：</p>
-        <p>区编号：</p>
+            <?php
+            $sheng ->sheng_arr($v);
+            ?>
+        </p>
+        <p>市编号：
+            <?php
+            $sheng ->shi_arr($v);
+            ?>
+        </p>
+        <p>区编号：
+            <?php
+            $sheng ->xian_arr();
+            ?>
+        </p>
         <p>最终编号:</p>
     </div>
 </div>
