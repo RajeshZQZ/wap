@@ -1,15 +1,17 @@
 <?php
 class InArr{
     function get_sheng_arr (){
-        $shen_arr = array(
-            "湖南","湖北","广西","广东",
-        );
+        $shen_arr = SHENG_ARR;
         foreach ($shen_arr as $vale){
             echo "<option value=\'sheng\'>".$vale.'</option>';
         }
     }
+    function sheng_arr ($valu){
+        $arr_vale = $_REQUEST['sheng'];
+        echo $arr_vale;
+    }
 }
-
+?>
 
 <html lang="en">
 <head>
@@ -29,29 +31,32 @@ select {
         }
     </style>
 </head>
-
 <body>
 <div>
     <div>
+        <form action="InArr.class.php" method="post">
         <select>
-            <option value="0" >省份/直辖市</option>
+            <option value="0" name="sheng">省份/直辖市</option>
            <?php $sheng = new InArr();
             $sheng ->get_sheng_arr();
            ?>
-
         </select>
         <select>
             <option value="0">市/县</option>
-            <option value="shi">$shi</option>
         </select>
         <select>
             <option value="0">镇/区</option>
-            <option value="xian">$xian</option>
         </select>
+        <input type="submit" value="点击">
+        </form>
     </div>
     <div class="code-print">
         <p>【县级市没有区！】</p>
-        <p>省编号：<span ></span></p>
+        <p>省编号：<span >
+                <?php
+                $sheng ->sheng_arr($vale);
+                ?>
+            </span></p>
         <p>市编号：<span ></span></p>
         <p>区编号：<span ></span></p>
         <p>最终编号:<span ></span></p>
