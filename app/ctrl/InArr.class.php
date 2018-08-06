@@ -54,10 +54,10 @@ select {
             $sheng ->get_sheng_arr();
            ?>
         </select>
-        <select name="xian_p">
+        <select name="shi_p">
             <option value="0">市/县</option>
         </select>
-        <select name="zhen_p">
+        <select name="xian_p">
             <option value="0">镇/区</option>
         </select>
         <input type="submit" value="点击">
