@@ -13,14 +13,14 @@ class InArr{
         echo $v;
     }
 
-    function shi_arr ($v){
-        $v = $_REQUEST['sheng_p'];
-        echo $v;
+    function shi_arr ($v2){
+        $v2 = $_REQUEST['shi_p'];
+        echo $v2;
     }
 
-    function xian_arr ($v){
-        $v = $_REQUEST['sheng_p'];
-        echo $v;
+    function xian_arr ($v3){
+        $v3 = $_REQUEST['xian_p'];
+        echo $v3;
     }
 
 }
@@ -47,7 +47,7 @@ select {
 <body>
 <div>
     <div>
-        <form action="Main.class.php" method="post">
+        <form action="InArr.class.php" method="post">
         <select name="sheng_p">
             <option value="0" name="sheng">省份/直辖市</option>
            <?php $sheng = new InArr();
@@ -72,12 +72,12 @@ select {
         </p>
         <p>市编号：
             <?php
-            $sheng ->shi_arr($v);
+            $sheng ->shi_arr($v2);
             ?>
         </p>
         <p>区编号：
             <?php
-            $sheng ->xian_arr();
+            $sheng ->xian_arr($v3);
             ?>
         </p>
         <p>最终编号:</p>
