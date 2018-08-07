@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>select-option</title>
+</head>
+<body>
+<select id="sel" onchange="cc()">
+    <option>山药</option>
+    <option>地瓜</option>
+    <option>小开</option>
+    <option>小胖</option>
+</select>
+<select>
+    <option id="res"></option>
+</select>
+<span id="res"></span>
+<script>
+    window.onload=function(){
+        cc();
+    }
+    function cc(){
+        var sel = document.getElementById("sel");
+        var res1=sel.options[sel.selectedIndex].value;
+        document.getElementById("res").innerHTML=res1;
+    }
+</script>
+</body>
+</html>

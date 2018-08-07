@@ -48,14 +48,14 @@ select {
 <div>
     <div>
         <form action="InArr.class.php" method="post">
-        <select name="sheng_p">
+        <select name="sheng_p" id="sh">
             <option value="0" name="sheng">省份/直辖市</option>
            <?php $sheng = new InArr();
             $sheng ->get_sheng_arr();
            ?>
         </select>
-        <select name="shi_p">
-            <option value="0">市/县</option>
+        <select  name="shi_p">
+            <option value="0" id="res">市/县</option>
         </select>
         <select name="xian_p">
             <option value="0">镇/区</option>
@@ -83,6 +83,17 @@ select {
         <p>最终编号:</p>
     </div>
 </div>
+
+<script>
+    window.onload=function(){
+        cc();
+    }
+    function cc(){
+        var sh = document.getElementById("sh");
+        var res=sel.options[sh.selectedIndex].value;
+        document.getElementById("res").innerHTML=res;
+    }
+</script>
 
 </body>
 

@@ -11,6 +11,7 @@ class Calculator
 {
 
     //判断是否输入正确；
+
     public function do_test($num){
         if (empty($num)) {
             echo "输入值为空，请输入身份证前17位！";
