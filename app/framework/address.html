@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{$title_content}</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />	
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="//h4.jkimg.net/gameapp_24caipiao/css/v2/homev2/information.css?v=201808101620" />
+		<script src="//h4.jkimg.net/gameapp_24caipiao/js/jquery-1.6.4.min.js?v=201808101620"></script>
+		<script src="47.98.188.59/game01/wap/app/framework/address01.js"
+		<script src="//h1.jkimg.net/gameapp_24caipiao/js/zepto-1.1.3.js?v=201808101620"></script>
+
+		<script type="text/javascript">
+			var param_province = "{$province}";
+			var param_city = "{$city}";
+			var param_county = "{$county}";
+
+			if(typeof(PAG_JS) != 'undefined' && typeof(PAG_JS.openPage) != 'undefined') {
+		        PAG_JS.closePage('WB');
+		        PAG_JS.closePage('WC');
+		    }
+			//初始化REM
+			(function($){
+				var setFontSize = function(){  
+					var width = $('html').width();  
+					width = width > 720 ? 720: width;  
+					var fontSize = width/720 * 100;  
+					$('html').css({  
+						"font-size" : fontSize  
+					});  
+				}
+				setFontSize();  
+				$(window).on('resize', function(){  
+					setFontSize();  
+				});  
+			})(window.Zepto);
+		</script>
+    </head>
+    <body>
+    	<header class="header">
+    		<div class="head-tit">联系地址</div>
+		</header>
+		<input type="hidden"  class="province" value="{$province}">
+        <input type="hidden"  class="city" value="{$city}">
+        <input type="hidden"  class="county" value="{$county}">
+        <input type="hidden"  class="address" value="{$address}">
+		<div class="address-box">
+			<div class="address message-normal">
+				<br>
+					<p>请输入联系地址：</p>
+					<div id="content-wrap">     
+		            	<div id="content-left" class="demo">
+		                	<form action="" name="form1">
+		                        <div class="infolist">
+		                            <div class="liststyle">
+		                                <span id="Province">
+		                                    <i>请选择省份</i>
+		                                    <ul>
+		                                        <li><a href="javascript:void(0)" alt="请选择省份">请选择省份</a></li>
+		                                    </ul>
+		                                    <input type="hidden" name="cho_Province" value="请选择省份" class="cho_Province">
+		                                </span>
+		                                <span id="City">
+		                                    <i>请选择城市</i>
+		                                    <ul>
+		                                        <li><a href="javascript:void(0)" alt="请选择城市">请选择城市</a></li>
+		                                    </ul>
+		                                    <input type="hidden" name="cho_City" value="请选择城市" class="cho_City">
+		                                </span>
+		                                <span id="Area">
+		                                    <i>请选择地区</i>
+		                                    <ul>
+		                                        <li><a href="javascript:void(0)" alt="请选择地区">请选择地区</a></li>
+		                                    </ul>
+		                                    <input type="hidden" name="cho_Area" value="请选择地区" class="cho_Area">
+		                                </span>
+		                            </div>
+		                        </div>
+		                    </form> 
+		            	</div>
+            			<div id="content-right"></div>
+        			</div>
+				</div>
+				<div class="minute">
+					<br>
+					<input type="text" class="import" value="{$address}">
+				</div>
+		</div>
+		<div class="txt_red address_text"></div>
+		<br>
+		<div class="save" id="address_save">保存</div>
+    </body>
+</html>
