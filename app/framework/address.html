@@ -12,13 +12,13 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<link rel="stylesheet" type="text/css" href="//h4.jkimg.net/gameapp_24caipiao/css/v2/homev2/information.css?v=201808101620" />
 		<script src="//h4.jkimg.net/gameapp_24caipiao/js/jquery-1.6.4.min.js?v=201808101620"></script>
-		<script src="47.98.188.59/game01/wap/app/framework/address01.js"
+		<script src="//h2.jkimg.net/gameapp_24caipiao/js/v2/city.min.js?v=201808101620"></script>
 		<script src="//h1.jkimg.net/gameapp_24caipiao/js/zepto-1.1.3.js?v=201808101620"></script>
-
+		<script src="//h1.jkimg.net/gameapp_24caipiao/js/v2/information.js?v=201808101620"></script>
 		<script type="text/javascript">
-			var param_province = "{$province}";
-			var param_city = "{$city}";
-			var param_county = "{$county}";
+			var param_province = "请选择省份";
+			var param_city = "请选择城市";
+			var param_county = "请选择地区";
 
 			if(typeof(PAG_JS) != 'undefined' && typeof(PAG_JS.openPage) != 'undefined') {
 		        PAG_JS.closePage('WB');
@@ -49,9 +49,10 @@
         <input type="hidden"  class="city" value="{$city}">
         <input type="hidden"  class="county" value="{$county}">
         <input type="hidden"  class="address" value="{$address}">
+		<br>
 		<div class="address-box">
 			<div class="address message-normal">
-				<br>
+
 					<p>请输入联系地址：</p>
 					<div id="content-wrap">     
 		            	<div id="content-left" class="demo">
@@ -87,12 +88,12 @@
         			</div>
 				</div>
 				<div class="minute">
-					<br>
-					<input type="text" class="import" value="{$address}">
+
+					<input type="text" class="import" value="详细地址">
 				</div>
 		</div>
 		<div class="txt_red address_text"></div>
-		<br>
+
 		<div class="save" id="address_save">保存</div>
     </body>
 </html>
