@@ -18,7 +18,7 @@ class ctrl_sjjy extends ctrl_base {
         $memRes = $memcache->get_cache($memKey);
         if(!empty($memRes)){
             $sjjy_order = $memRes;
-        }else{-*+
+        }else{
 
             $sjjy_order = array("order_id"=>$_GET['orderId'],
                                 "openid" => $_GET['openId'],
