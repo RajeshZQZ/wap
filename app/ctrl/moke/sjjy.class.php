@@ -4,7 +4,7 @@ class ctrl_moke_sjjy {
   public static $info = array();
     function test01 (){
         $infoArr = array();
-        if (empty($_REQUEST['name']) && empty($_REQUEST['age'] && empty($_REQUEST['sex'] ){
+        if (empty($_REQUEST['name']) && empty($_REQUEST['age']) && empty($_REQUEST['sex'])){
         //参数都为空
         }else {
             $infoArr = array(
