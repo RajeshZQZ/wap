@@ -19,7 +19,8 @@ class ctrl_moke_sjjy {
 
     function dotest($info){
         if (empty($info)){
-            echo "moke sjjy don`t get any infomation~!";
+           // echo "moke sjjy don`t get any infomation~!";
+            header("Location: http://m.1768.com");
         }elseif (!empty($info['sex']) && !empty($info['name']) && !empty($info['age'])){
             if ($info['sex'] == 1){
                 echo "THIS MAN`S NAME IS {$info['name']} ,AND HE IS {$info['age']} YEARS OLD~!";
