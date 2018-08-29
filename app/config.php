@@ -10,3 +10,4 @@
 //define ('ACT_PATH',dirname(__FILE__) . '/ctrl/');
 
 define ('APP_DIR','/usr/local/httpd/htdocs/game01/wap/app/');
+define('TEMPLATE','/usr/local/httpd/htdocs/game01/wap/app/template/');

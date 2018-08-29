@@ -20,12 +20,15 @@ class ctrl_moke_sjjy {
     function dotest($info){
         if (empty($info)){
             echo "<h1 align='center'>THERE HAVE NOTHING IN THE INFOMATION~!</h1>";
+            include (TEMPLATE.'nothing.html');
            // header("Location: http://m.1768.com");
         }elseif (!empty($info['sex']) && !empty($info['name']) && !empty($info['age'])){
             if ($info['sex'] == 1){
                 echo "<h1 align='center'>THIS MAN`S NAME IS {$info['name']} ,AND HE IS {$info['age']} YEARS OLD~!</h1>";
+                include (TEMPLATE.'man.html');
             }else{
                 echo "<h1 align='center'>THIS WOMAN`S NAME IS {$info['name']} ,AND SHE IS {$info['age']} YEARS OLD~!</h1>";
+                include (TEMPLATE.'woman.html');
             }
         }else{
             echo "DON`T HAVE COMLETE INFOMATION~!";
