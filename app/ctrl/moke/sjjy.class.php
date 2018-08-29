@@ -5,9 +5,9 @@ class ctrl_moke_sjjy {
     function test01 (){
 
         $infoArr = array(
-            'name' = $_REQUEST['name'],
-            'age' = $_REQUEST['age'],
-            'sex' = $_REQUEST['sex'],
+            'name' => $_REQUEST['name'],
+            'age' => $_REQUEST['age'],
+            'sex' => $_REQUEST['sex'],
             );
         self::$info = $infoArr;
     $this->dotest($infoArr);
@@ -20,7 +20,7 @@ class ctrl_moke_sjjy {
             if ($info['sex'] == 1){
                 echo "THIS MAN`S NAME IS {$info['name']} ,AND HE IS {$info['age']} YEARS OLD~!";
             }else{
-                echo "THIS WOMAN`S NAME IS {$info['name']} ,AND SHE IS {$info['age']} YEARS OLD~!"
+                echo "THIS WOMAN`S NAME IS {$info['name']} ,AND SHE IS {$info['age']} YEARS OLD~!";
             }
         }else{
             echo "DON`T HAVE COMLETE INFOMATION~!";
