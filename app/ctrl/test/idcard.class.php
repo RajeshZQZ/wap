@@ -19,7 +19,7 @@ class ctrl_test_idcard{
         }else{
             $res = self::id_card($num);
             if (empty($res)){
-                $url = TEMPLATE."re_input.html";
+                $url = URL."app/template/re_input.html";
                 header('Location:'.$url);
             }else{
                 echo "<h1 align='center'>身份证号码为：$res</h1>";

@@ -11,3 +11,4 @@
 
 define ('APP_DIR','/usr/local/httpd/htdocs/game01/wap/app/');
 define('TEMPLATE','/usr/local/httpd/htdocs/game01/wap/app/template/');
+define ('URL','http://47.98.188.59/game01/wap/');
