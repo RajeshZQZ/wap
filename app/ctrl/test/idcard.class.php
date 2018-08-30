@@ -16,7 +16,7 @@ class ctrl_test_idcard{
         $num = $_REQUEST['num'];
         if (empty($num)){
         echo "<h1 align='center'> PLEASE INPUT YOU ID CARD NUMBER~!</h1>";
-        }else{
+        }elseif(!empty($num) && is_numeric($num)){
             $res = self::id_card($num);
             if (empty($res)){
                 $url = URL."app/template/re_input.html";
@@ -24,6 +24,9 @@ class ctrl_test_idcard{
             }else{
                 echo "<h1 align='center'>身份证号码为：$res</h1>";
             }
+        }else{
+            echo "<h1 align='center'> YOU INPUT NUM IS NOT AN NUMBER~!</h1>";
+            echo "<h2 align='center'> PLEASE INPUT YOU ID CARD NUMBER~!</h2>";
         }
 
     }
