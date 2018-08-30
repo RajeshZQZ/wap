@@ -6,7 +6,7 @@
  * Date: 2018/8/30
  * Time: 15:36
  */
-class ctr_test_idcard{
+class ctrl_test_idcard{
     public  static $coef = array(
         7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2,
     );
