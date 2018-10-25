@@ -8,7 +8,6 @@
  */
 
 class ctrl_sjjy extends ctrl_base {
-
     const APP_SECRET = "12f03456079a4e208ab2bb44183564f5" ;//秘钥
     const URL = "http://10test90-wap.stg3.1768.com/shijijy_notify.php";
     //curl "http://caipiaoapi9.stg3.24cp.com/?act=sjjy&st=call_back&orderId=&openId=&amount=&feeAmount="
