@@ -31,6 +31,23 @@ class ctrl_test_idcard{
 
     }
 
+    public function random_id(){
+        $address_id = rand(100000,999999);
+        $day_id = date("Ymd",rand(14400,time()));
+        $end_id = rand(100,999);
+        $check_id = $address_id.$day_id.$end_id;
+        $id_card = self::id_card($check_id);
+        if (empty($id_card)){
+            $url = URL."app/template/re_input.html";
+            header('Location:'.$url);
+        }else{
+            echo "<h1 align='center'>随机身份证号码为：$id_card</h1>";
+        }
+    }
+
+
+
+
     public function id_card($id){
         if (empty($id)){
             return FALSE;
