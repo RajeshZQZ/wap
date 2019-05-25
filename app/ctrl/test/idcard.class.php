@@ -32,7 +32,7 @@ class ctrl_test_idcard{
     }
 
     public function random_id(){
-        $address_id = rand(100000,999999);
+        $address_id = rand(110000,820000);
         $day_id = date("Ymd",rand(14400,time()));
         $end_id = rand(100,999);
         $check_id = $address_id.$day_id.$end_id;
