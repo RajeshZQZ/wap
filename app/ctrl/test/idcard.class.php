@@ -41,7 +41,11 @@ class ctrl_test_idcard{
             $url = URL."app/template/re_input.html";
             header('Location:'.$url);
         }else{
-            echo "<h1 align='center'>随机身份证号码为：$id_card</h1>";
+            echo "<h1>随机身份证号码为：$id_card</h1>";
+            echo "<h1>重新生成</h1>
+            <a href='http://47.98.188.59/game01/wap/?act=test_idcard&st=random_id'>
+            <button>点击重新生成</button>
+            </a>";
         }
     }
 
